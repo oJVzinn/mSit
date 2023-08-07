@@ -1,0 +1,10 @@
+name: mSit
+description: Fun based plugin to make players sit.
+version: '1.12'
+main: me.meiallu.msit.MSit
+author: Meiallu
+commands:
+  sit:
+    description: Will make you sit on the ground.
+    usage: /sit
+    permission: msit.use
