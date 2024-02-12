@@ -28,7 +28,7 @@ public final class MSit extends JavaPlugin implements Listener, CommandExecutor 
         getServer().getPluginManager().registerEvents(this, this);
     }
 
-    public String paintMsg(String msg) {
+    public String printMsg(String msg) {
         return ChatColor.translateAlternateColorCodes('&', msg);
     }
 
